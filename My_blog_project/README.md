@@ -1,5 +1,3 @@
-### README for Personal Blog Project
-
 # Personal Tech Blog
 
 This is a **Personal Blog Website** designed to showcase various topics in technology, sustainability, and business innovation. It follows a modern structure, custom design, and responsive layout while separating content from styling. The project meets the rubric for structure, design, layout, responsiveness, and quality, ensuring a clean and professional user experience.
