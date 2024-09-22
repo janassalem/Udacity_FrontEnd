@@ -56,10 +56,16 @@ main {
     font-weight: bold;
 }
 
+
+
 footer {
     padding: 2rem 0;
     text-align: center;
     background-color: #f8f9fa;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adjust spacing */
 }
 
 footer a {

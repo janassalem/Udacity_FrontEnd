@@ -79,3 +79,8 @@
 .social-links .btn-social:hover {
     background-color: #2980b9;
 }
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; /* Adjust as needed for spacing */
+}

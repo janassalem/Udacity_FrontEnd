@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Blog</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/typography.css">
-    <link rel="stylesheet" href="assets/css/layout.css">
-    <link rel="stylesheet" href="assets/css/components.css">
+  
+    <link rel="stylesheet" href="assets/css/main.css">
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -17,10 +15,10 @@
         <div class="logo">TechTalk</div>
         <nav>
             <ul>
-                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="#"><i class="fas fa-info-circle"></i> About</a></li>
-                <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i> Subscribe</a></li>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="search.html"><i class="fas fa-search"></i> Search</a></li>
+                <li><a href="subscribe.html"><i class="fas fa-envelope"></i> Subscribe</a></li>
             </ul>
         </nav>
     </header>
@@ -29,36 +27,43 @@
     <!-- Blog Post Cards (Grid Layout) -->
     <section class="blog-grid">
         <article class="blog-card">
-            <img src="assets/images/inteligencia artificial.jpeg" alt="Tech Innovations">
+            <figure>
+                <img src="assets/images/inteligencia artificial.jpeg" alt="Tech Innovations">
+                <figcaption>Tech Innovations</figcaption>
+            </figure>
             <h2>5 Tech Innovations to Watch in 2024</h2>
-            <p>Explore groundbreaking tech trends that are shaping the future. <a href="post-tech.html">Read more...</a></p>
+            <p>Explore <b>groundbreaking</b> tech trends that are <u>shaping</u> the future. <blockquote>Innovation drives progress in our world.</blockquote> <a href="post-tech.html">Read more...</a></p>
         </article>
         <article class="blog-card">
-            <img src="assets/images/AI in Surgery.jpeg" alt="Health Tech">
+            <figure>
+                <img src="assets/images/AI in Surgery.jpeg" alt="Health Tech">
+                <figcaption>The Rise of AI in Healthcare</figcaption>
+            </figure>
             <h2>The Rise of AI in Healthcare</h2>
-            <p>How AI is transforming medical treatments and diagnostics. <a href="post-health.html">Read more...</a></p>
+            <p>How <b>AI</b> is transforming <u>medical</u> treatments and diagnostics. <blockquote>Healthcare is evolving with technology.</blockquote> <a href="post-health.html">Read more...</a></p>
         </article>
         <article class="blog-card">
-            <img src="assets/images/download.jpeg" alt="Eco-friendly Gadgets">
+            <figure>
+                <img src="assets/images/download.jpeg" alt="Eco-friendly Gadgets">
+                <figcaption>Eco-friendly Gadgets You Need</figcaption>
+            </figure>
             <h2>Eco-friendly Gadgets You Need</h2>
-            <p>Discover gadgets that are revolutionizing sustainability. <a href="post-eco.html">Read more...</a></p>
+            <p>Discover gadgets that are <b>revolutionizing</b> sustainability. <blockquote>Every small step counts towards a greener planet.</blockquote> <a href="post-eco.html">Read more...</a></p>
         </article>
         <article class="blog-card">
-            <img src="assets/images/Elevate your lifestyle.jpeg" alt="Future of Business">
+            <figure>
+                <img src="assets/images/Elevate your lifestyle.jpeg" alt="Future of Business">
+                <figcaption>Future of Business: Tech-Driven Growth</figcaption>
+            </figure>
             <h2>Future of Business: Tech-Driven Growth</h2>
-            <p>Tech innovations that are changing business landscapes. <a href="post-business.html">Read more...</a></p>
+            <p>Tech innovations that are changing <u>business</u> landscapes. <blockquote>Adapting is essential for success in the modern era.</blockquote> <a href="post-business.html">Read more...</a></p>
         </article>
     </section>
-
-
-   <!-- Subscription Form -->
+    
+    
     <footer class="footer">
-        <h3><i class="fas fa-newspaper"></i> Subscribe to Our Blog</h3>
-        <form action="#">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <button type="submit"><i class="fas fa-paper-plane"></i> Subscribe</button>
-        </form>
+        <p>© 2024 My Personal Blog</p>
     </footer>
+    
 </body>
 </html>
