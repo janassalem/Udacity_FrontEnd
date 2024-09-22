@@ -1,0 +1,16 @@
+/* Typography styles */
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+p a {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}

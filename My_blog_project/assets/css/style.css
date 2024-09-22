@@ -1,0 +1,74 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.blog-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.blog-card {
+    flex: 1 1 calc(50% - 1rem);
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.blog-card h2 {
+    margin-bottom: 0.5rem;
+}
+
+.blog-category {
+    color: #007bff;
+    font-weight: bold;
+}
+
+footer {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+footer a {
+    color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .blog-card {
+        flex: 1 1 100%;
+    }
+}
